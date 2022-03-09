@@ -1,0 +1,92 @@
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+  }
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 24px;
+}
+
+.header,.footer {
+    background: #1F2937;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0; /*  Don't interfere with header margin*/
+    padding: 0; /*  Don't interfere with header padding*/
+    gap: 10px; /* Gap between each li */
+  }
+  
+  a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: white;
+  }
+
+ .top-container {
+    background: #1F2937; 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    gap: 16px;
+ }   
+
+ .awesome {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 12px;
+ }
+
+ .text {
+     margin-bottom: 15px;
+ }
+
+ button {
+    background-color: #3B82F6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 5px;
+ }
+ .image {
+    margin: auto;
+    width: 500px;
+    height: 200px;
+    background-color: grey;
+    padding: 10px;
+ }
+
+ .info {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 20px; /* Space between divs */
+    padding: 30px;
+    
+ }
+
+ .squares {
+     display: flex;
+     justify-content: center;
+     gap: 30px;
+ }
+
+ img {
+    width: 200px;
+    height: 200px;
+  }
